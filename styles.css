@@ -1,0 +1,79 @@
+body {
+    font-family: poppins;
+    margin: 50px 50px 50px 50px
+}
+
+.main {
+    font-size: 1.5rem;
+}
+
+.student {
+    color: midnightblue;
+}
+
+.web-developer {
+    color: maroon
+}
+
+h1 {
+    font-size: 5rem;
+    margin: 0;
+}
+
+.description {
+    border: solid grey;
+    border-radius: 2%;
+    margin-right: 30px;
+    height: 300px;
+    width: 1190px;
+    padding: 20px 20px 20px 20px;
+}   
+
+.summary {
+    position: relative;
+    left: 50px;
+    bottom: 45px;
+    width: 95%;
+    font-size: 2rem;
+}
+
+.profile-image {
+    float: left;
+    object-fit: cover;
+    height: 100%;
+    width: 300px
+}
+
+.quotes {
+    height: 7%;
+    position: absolute;
+    z-index: 1;
+    left: 1250px
+}
+
+#titles {
+    font-weight: 400;
+}
+
+.education, .work-experience {
+    border-radius: 25px;
+    margin-top: 30px;
+    width: 500px;
+    display: inline-block;
+    background-color: aliceblue;
+    padding: 15px 30px 0px 30px;
+    height: 495px;
+}
+
+.education h2, .work-experience h2 {
+    margin-top: 0px;
+}
+
+.work-experience {
+    position: absolute;
+    margin-left: 100px;
+}
+
+
+
+
