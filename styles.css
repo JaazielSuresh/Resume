@@ -22,7 +22,7 @@ h1 {
 
 .description {
     border: solid grey;
-    border-radius: 2%;
+    border-radius: 25px;
     margin-right: 30px;
     height: 300px;
     width: 1190px;
