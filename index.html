@@ -1,46 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Resume</title>
 </head>
+
 <body>
-    <h1>Jaaziel Suresh</h1>
-    <h3><strong> Student and web developer</strong></h3>
-    <hr>
-    <img src="./assets/images/profile-image.png" size="200px">
-    <hr>
-    <h2>Summary</h2>
-    <p>I am a motivated student, hard worker and fast learner. I can pick up skills quickly and can easily get on with others, valuing teamwork and responsibility.</p>
-    <hr>
-    <h2>Education</h2>
-    <ul>
-        <li>Plumpton college - Jewelry and blacksmithing (2022-2024)</li>
-        <li>GCSES:
-            <ul> 
-                <li>Maths - grade <strong>8</strong></li>
-                <li>Englih - grade <strong>9</strong></li>
-                <li>Physics - grade <strong>8</strong></li>
-                <li>Geography - grade <strong>8</strong></li>
-                <li>Music - grade <strong>8</strong></li>
-            </ul>
-            <li>ACCA beginner and intermediate bookkeeping</li>
-            <li>Online cello lessons - Emanuele Abete</li>
-        </li>
-    </ul>
-    <hr>
-    <h2>Work experience</h2>
-    <p><a href="https://maps.app.goo.gl/vURMyJbFFiZuRBRL7">Offham farm shop</a> - work experience as a kitchen hand
-        <br>
-    <ul>
-        <li>Prepared food and drink</li>
-        <li>Served menu items to customers</li>
-        <li>Cleaned areas after use</li>
-        <br>
-        <a href="https://drive.google.com/file/u/0/d/1TJmMd6NRYCk-o1Vk3rs8WrQVbBZ6N65Z/view?usp=sharing&pli=1">Reference</a>
-    </ul></p>
+    <div class="main">
+        <h1>Jaaziel Suresh</h1>
+        <h2 id="titles"><span class="student">Student</span> and <span class="web-developer">web developer.</span></h2>
+        <div class="description">
+            <img class="profile-image" img src="./assets/images/profile-image.png" alt="profile image">
+            <img class="quotes" src="./assets/images/quotes.jpg" alt="quotes">
+            <div class="summary">
+                <h2>Summary</h2>
+                <p class="text">I am a motivated student, hard worker and fast learner. I can pick up skills quickly and can easily get on with others, valuing teamwork and responsibility.</p>
+            </div>  
+        </div> 
+    
+    <div class="education">
+        <h2>Education</h2>
+        <ul>
+            <li>Plumpton college - Jewelry and blacksmithing (2022-2024)</li>
+            <li>GCSES:
+                <ul> 
+                    <li>Maths - grade <strong>8</strong></li>
+                    <li>Englih - grade <strong>9</strong></li>
+                    <li>Physics - grade <strong>8</strong></li>
+                    <li>Geography - grade <strong>8</strong></li>
+                    <li>Music - grade <strong>8</strong></li>
+                </ul>
+                <li>ACCA beginner and intermediate bookkeeping</li>
+                <li>Online cello lessons - Emanuele Abete</li>
+            </li>
+        </ul>
+    </div>
+
+    <div class="work-experience text">
+        <h2>Work experience</h2>
+        <p><a href="https://maps.app.goo.gl/vURMyJbFFiZuRBRL7">Offham farm shop</a> - work experience as a kitchen hand
+            <br>
+        <ul>
+            <li>Prepared food and drink</li>
+            <li>Served menu items to customers</li>
+            <li>Cleaned areas after use</li>
+            <a href="https://drive.google.com/file/u/0/d/1TJmMd6NRYCk-o1Vk3rs8WrQVbBZ6N65Z/view?usp=sharing&pli=1">Reference</a>
+        </ul></p>
+    </div>
+
     <hr>
     <h2>Skills</h2>
     <ul>Paint.net</ul>
@@ -69,5 +82,6 @@
     <footer>
         <p><em>© Jaaziel Suresh 2024</em></p>
     </footer>
+    </div>
 </body>
 </html>
